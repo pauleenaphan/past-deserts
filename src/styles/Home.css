@@ -1,0 +1,91 @@
+#newMemoryBtn{
+    background-color: rgb(63, 197, 221);
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.newMemForm{
+    background-color: white;
+}
+
+.homePage {
+    background-image: url("../assets/desertBackground.jpg"); /* Replace with the correct path to your image */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+
+.homePage header{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 20%;
+}
+
+.homePage header h1{
+    color:rgb(0, 0, 0);
+}
+
+.allMemoriesContainer{
+    /* background-color: pink; */
+    display: flex;
+    padding: 20px 50px 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Width for phones */
+@media (max-width: 700px) {
+    .memoryContainer {
+        width: 90% !important; 
+    }
+}
+
+.memoryContainer{
+    padding: 20px;
+    border-radius: 5px;
+    width: 28%;
+    background-color: bisque;
+}
+
+.recipeTitleLink{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+#linkIcon{
+    font-size: 30px;
+    color: black;
+}
+
+#linkIcon:hover{
+    color: rgb(85, 16, 16);
+}
+
+.memoryDate{
+    font-style: italic;
+}
+
+.memoryNotes{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+img{
+    width: 100% !important;
+}
+
+.line{
+    border: 1px solid;
+    margin: 10px 0px;
+}
+
+.formImg{
+    width: 50% !important;
+}
+

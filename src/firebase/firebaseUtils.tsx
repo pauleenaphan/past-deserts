@@ -1,6 +1,5 @@
 import { collection, addDoc, getDocs } from 'firebase/firestore';
 import { db } from './firebaseConfig'; // Assuming you've already set up Firebase in firebase.js
-import { getFormattedDate } from '../Utils/helpers';
 
 // Convert image file to a base64 string
 const convertToBase64 = (file: File): Promise<string> => {
@@ -12,7 +11,7 @@ const convertToBase64 = (file: File): Promise<string> => {
     });
 };
 
-export const addMemory = async (title: string, notes: string, link: string, imgs: File[]) => {
+export const addMemory = async (title: string, notes: string, link: string, date: string, imgs: File[]) => {
     try {
         // Convert all images to base64
         const base64Images: string[] = [];
@@ -26,8 +25,8 @@ export const addMemory = async (title: string, notes: string, link: string, imgs
             title,
             notes,
             link,
+            date,
             imgs: base64Images, // Store base64 strings of images
-            datePosted: getFormattedDate(),
         });
 
         console.log("Memory added successfully.");
@@ -49,6 +48,7 @@ export const getMemories = async() =>{
             title: string;
             notes: string;
             link: string;
+            date: string;
             imgs: string[];
         }[];
 
