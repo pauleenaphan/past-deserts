@@ -15,7 +15,6 @@
     background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
-
 .homePage header{
     margin-top: 2%;
     text-align: center;
@@ -37,10 +36,17 @@
 }
 
 /* Width for phones */
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .memoryContainer {
-        width: 90% !important; 
+        width: 100% !important; 
     }
+    .homePage header{
+        font-size: 20px;
+    }
+    .homePage header p{
+        font-size: 18px;
+    }
+
 }
 
 .memoryContainer{
@@ -55,7 +61,6 @@
     /* align-items: center; */
     justify-content: space-between;
     font-size: 20px;
-    flex-wrap: wrap;
 }
 
 #linkIcon{
