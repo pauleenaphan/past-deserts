@@ -11,15 +11,21 @@
 
 .homePage {
     background-image: url("../assets/desertBackground.png"); /* Replace with the correct path to your image */
-    background-size: cover; /* Ensures the image covers the entire container */
-    background-repeat: repeat; /* Prevents the image from repeating */
+    background-size: auto;
+    background-repeat: repeat;
 }
 
+
 .homePage header{
-    margin-top: 2%;
     text-align: center;
     font-size: 30px;
-    padding: 0px 20%;
+    padding: 2% 20%;
+    background-color: bisque;
+    opacity: 0.9;
+    width: 50%;
+    margin: 2% auto;
+    border: 5px solid;
+    border-radius: 10px;
 }
 
 .homePage header h1{
@@ -54,6 +60,8 @@
     border-radius: 5px;
     width: 28%;
     background-color: bisque;
+    opacity: 0.9;
+    border: 5px solid;
 }
 
 .recipeTitleLink{
