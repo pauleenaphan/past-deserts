@@ -25,7 +25,7 @@
     width: 50%;
     margin: 2% auto;
     border: 5px solid;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .homePage header h1{
@@ -58,7 +58,7 @@
 .memoryContainer{
     padding: 20px;
     border-radius: 5px;
-    width: 28%;
+    width: 15%;
     background-color: bisque;
     opacity: 0.9;
     border: 5px solid;
