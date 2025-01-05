@@ -1,4 +1,4 @@
-#newMemoryBtn{
+/* #newMemoryBtn{
     background-color: rgb(63, 197, 221);
     border: none;
     cursor: pointer;
@@ -7,14 +7,14 @@
 
 .newMemForm{
     background-color: white;
-}
+} */
 
 .homePage {
     background-image: url("../assets/desertBackground.png"); /* Replace with the correct path to your image */
     background-size: auto;
     background-repeat: repeat;
+    padding-top: 20px;
 }
-
 
 .homePage header{
     text-align: center;
@@ -23,13 +23,28 @@
     background-color: bisque;
     opacity: 0.9;
     width: 50%;
-    margin: 2% auto;
+    margin: 0 auto;
     border: 5px solid;
     border-radius: 5px;
 }
 
 .homePage header h1{
     color:rgb(0, 0, 0);
+}
+
+.homePage .titleIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#cactusIcon{
+    font-size: 50px;
+}
+
+.homePage header p{
+    color: rgb(41, 41, 41);
 }
 
 .allMemoriesContainer{
