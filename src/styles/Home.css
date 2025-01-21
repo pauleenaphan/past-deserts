@@ -1,13 +1,7 @@
-/* #newMemoryBtn{
-    background-color: rgb(63, 197, 221);
-    border: none;
-    cursor: pointer;
-    opacity: 0;
+:root {
+    --headingFont: 'Merienda', cursive;
+    --bodyFont: 'Poppins', sans-serif;
 }
-
-.newMemForm{
-    background-color: white;
-} */
 
 .homePage {
     background-image: url("../assets/desertBackground.png"); /* Replace with the correct path to your image */
@@ -19,17 +13,17 @@
 .homePage header{
     text-align: center;
     font-size: 30px;
-    padding: 2% 20%;
+    padding: 20px 30px;
     background-color: bisque;
-    opacity: 0.9;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     border: 5px solid;
     border-radius: 5px;
 }
 
 .homePage header h1{
-    color:rgb(0, 0, 0);
+    color: black;
+    font-family: var(--headingFont);
 }
 
 .homePage .titleIcon{
@@ -37,18 +31,21 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    
 }
 
-#cactusIcon{
-    font-size: 50px;
+.cactusIcon{
+    font-size: 60px;
+    color: rgb(64, 160, 64);
 }
 
 .homePage header p{
     color: rgb(41, 41, 41);
+    font-family: var(--bodyFont);
+    font-size: 25px;
 }
 
 .allMemoriesContainer{
-    /* background-color: pink; */
     display: flex;
     padding: 20px 50px 50px;
     gap: 20px;
@@ -67,23 +64,22 @@
     .homePage header p{
         font-size: 18px;
     }
-
 }
 
 .memoryContainer{
     padding: 20px;
-    border-radius: 5px;
-    width: 23%;
+    border-radius: 10px;
+    width: 26%;
     background-color: bisque;
-    opacity: 0.9;
     border: 5px solid;
+    height: fit-content;
 }
 
 .recipeTitleLink{
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     font-size: 20px;
+    font-family: var(--headingFont);
 }
 
 #linkIcon{
@@ -97,15 +93,19 @@
 
 .memoryDate{
     font-style: italic;
+    color: rgb(70, 70, 70);
+    font-family: var(--bodyFont);
 }
 
 .memoryNotes{
     font-size: 20px;
     margin: 10px 0px;
+    font-family: var(--bodyFont);
 }
 
 img{
     width: 100% !important;
+    border-radius: 10px;
 }
 
 .line{

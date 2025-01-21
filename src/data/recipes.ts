@@ -4,6 +4,7 @@ import pandanjelly from "../assets/recipeImgs/pandanjelly.jpg";
 import blueberrycheese from "../assets/recipeImgs/blueberrycheesecake.jpg";
 import ubebrown from "../assets/recipeImgs/ubebronwnies.jpg";
 import tresleches from "../assets/recipeImgs/tresleches.jpg";
+import ubecheese from "../assets/recipeImgs/ubecheesecake.jpg";
 
 export const recipesData = [
     {
@@ -47,5 +48,12 @@ export const recipesData = [
         "date": "1/5/2024",
         "img": tresleches,
         "link": "https://www.allrecipes.com/recipe/7399/tres-leches-milk-cake/"
+    },
+    {
+        "name": "Mini Ube Cheesecake",
+        "description": "Ube is soo good. The cheesecakes were cracked because I didn't use a water bath but it still turned out pretty good. Probably use less sour cream next time since the taste is strong. Full recipe could make around 20-25 cups.",
+        "date": "1/17/2024",
+        "img": ubecheese,
+        "link": "https://theunlikelybaker.com/ube-cheesecake-video/"
     }
 ]
