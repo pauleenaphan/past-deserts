@@ -2,3 +2,21 @@
     padding: 0px;
     margin: 0px;
 }
+
+:root {
+    --headingFont: 'Merienda', cursive;
+    --bodyFont: 'Poppins', sans-serif;
+    --secondaryColor: rgb(85, 16, 16);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--headingFont);
+}
+
+p {
+    font-family: var(--bodyFont);
+}
+
+a{
+    color: var(--secondaryColor);
+}

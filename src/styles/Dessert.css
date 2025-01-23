@@ -1,0 +1,79 @@
+.dessertOuterContainer{
+    background-color: bisque;
+    height: 100%;
+    padding: 50px 50px 200px;
+}
+
+.dessertPage{
+    width: 70%;
+    margin: 0px auto;
+}
+
+#backArrow{
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+#backArrow:hover{
+    color: var(--secondaryColor);
+}
+
+.dateLinkContainer{
+    display: flex;
+    font-size: 20px;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+
+.dessertName{
+    font-size: 50px;
+}
+
+.dessertDesc{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.dessertPage img{
+    width: 30%;
+    margin: 10px auto;
+    display: block;
+}
+
+.imgCaption{
+    text-align: center;
+    color: rgb(29, 29, 29);
+}
+
+@media(max-width: 500px){
+    .dessertOuterContainer{
+        padding: 40px 40px 200px;
+    }
+    .dessertPage{
+        width: 100%;
+    }
+
+    #backArrow{
+        margin-left: 0px;
+    }
+
+    .dessertName{
+        font-size: 40px;
+    }
+
+    .dateLinkContainer{
+        flex-wrap: wrap;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .dessertDesc{
+        font-size: 20px;
+    }
+
+    .dessertPage img{
+        width: 70%;
+    }
+}
