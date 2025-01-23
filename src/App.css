@@ -4,7 +4,8 @@
 }
 
 :root {
-    --headingFont: 'Merienda', cursive;
+    /* --headingFont: 'Merienda', cursive; */
+    --headingFont: 'Varela Round', sans-serif;
     --bodyFont: 'Poppins', sans-serif;
     --secondaryColor: rgb(85, 16, 16);
 }

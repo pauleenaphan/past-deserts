@@ -2,9 +2,16 @@ import bananapud from "../assets/recipeImgs/bananapudding.jpg";
 import strawberrybrown from "../assets/recipeImgs/proteinstrawberrybrownies.jpg";
 import pandanjelly from "../assets/recipeImgs/pandanjelly.jpg";
 import blueberrycheese from "../assets/recipeImgs/blueberrycheesecake.jpg";
+
 import ubebrown from "../assets/recipeImgs/ubebronwnies.jpg";
+import ubebrownTwo from "../assets/recipeImgs/ubebrownies2.jpg";
+
 import tresleches from "../assets/recipeImgs/tresleches.jpg";
+import treslechesTwo from "../assets/recipeImgs/tresleches2.jpg";
+
 import ubecheese from "../assets/recipeImgs/ubecheesecake.jpg";
+import ubecheeseTwo from "../assets/recipeImgs/ubecheesecake2.jpg";
+import ubecheeseThree from "../assets/recipeImgs/ubecheesecake3.jpg";
 
 export const recipesData = [
     {
@@ -20,7 +27,7 @@ export const recipesData = [
             "Overall, I rate this recipe <strong>10/10</strong>. It was super easy to make and turned out really good. Seems hard to mess it up."
             ,
         "date": "10/19/2024",
-        "img": bananapud,
+        "img": [bananapud],
         "imgCaption": "This image is from the website since I forgot to take on myself",
         "link": "https://www.the-girl-who-ate-everything.com/magnolia-bakerys-famous-banana-pudding/"
     },
@@ -36,7 +43,7 @@ export const recipesData = [
             "I would give this recipe a <strong>10/10</strong>. You just mix everything in a bowl then bake it. It's hard to mess up. Plus I like how you can modify the recipe by adding different protein powders and the type of chocolate. "
             ,
         "date": "11/9/2024",
-        "img": strawberrybrown,
+        "img": [strawberrybrown],
         "imgCaption": "I didn't take a picture of it! So here is the one from the website",
         "link": "https://healthyfitnessmeals.com/healthy-protein-brownies-recipe/",
     },
@@ -54,7 +61,7 @@ export const recipesData = [
             "Even though I don't like jelly I would give this recipe a <strong>8/10</strong>. It was easy to make but annoying since I had to reboil the layers when they solidify, but it was fun pouring the layers and seeing it jiggle."
             ,
         "date": "11/16/2024",
-        "img": pandanjelly,
+        "img": [pandanjelly],
         "imgCaption": "Credit to Erick for taking this picture",
         "link": "https://takestwoeggs.com/coconut-pandan-jelly/"
     },
@@ -71,7 +78,7 @@ export const recipesData = [
             "I give this recipe a <strong>9/10</strong>. Only because I don't really like eating my blueberries in full form. Maybe it would have been good too if I squashed up the blueberries so the cheesecake would have been a dark blue color. Who knows?"
             ,
         "date": "11/26/2024",
-        "img": blueberrycheese,
+        "img": [blueberrycheese],
         "imgCaption": "Credit to Erick for taking this photo of me! Look how cute I look <3",
         "link": "https://theloopywhisk.com/2021/01/22/easy-blueberry-cheesecake/"
     },
@@ -89,7 +96,7 @@ export const recipesData = [
             "Again, finding the ingredients is the hardest part. I would give this recipe a <strong>10/10</strong>. Mix and bake, then mix and bake! The <strong>unlikely baker</strong> has so much ube recipes that I need to try out."
             ,
         "date": "12/6/2024",
-        "img": ubebrown,
+        "img": [ubebrown, ubebrownTwo],
         "imgCaption": "I wish I got a better photo! But the inside was a nice dark purple color.",
         "link": "https://theunlikelybaker.com/ube-brownies-recipe/"
     },
@@ -97,18 +104,31 @@ export const recipesData = [
         "id": 6,
         "name": "Tres Leches",
         "description": "First dessert of the year!",
-        "bodyArticle": "",
+        "bodyArticle": 
+            "Tres Leches: a wet sponge cake! The first time I heard about it was in a discord call with my friends. Someone was explaining it to me but I didn't realize it was a sponge cake until I made one myself.<br/><br/>" +
+            "This recipe was super easy to make and it tasted so good! It didn't even matter if I overcooked the cake because the milk made it soggy and nice. So it definetly wasn't dry. The whipped cream on top complements the sponge flavor so well. Everything about it was just so good.<br/><br/>" +
+            "I remember this day I made it we had a mexican dinner. Erick brought over some beans that he made and a little burnt red rice. Bun made chicken thighs and it turned out really good with sides. So I decided to make tres leches to complete the dinner. <br/><br/>" +
+            "I'm pretty sure everyone gave it a <strong>10/10</strong>, so I give this recipe a <strong>10/10</strong>. I have seen a bunch of different flavor tres leches recipes like red velvet or strawberry and it's basically made the same way. Can't wait to try them in the future!" 
+            ,
         "date": "1/5/2024",
-        "img": tresleches,
+        "img": [tresleches, treslechesTwo],
+        "imgCaption": "Look how good this looks!",
         "link": "https://www.allrecipes.com/recipe/7399/tres-leches-milk-cake/"
     },
     {
         "id": 7,
         "name": "Mini Ube Cheesecake",
         "description": "Ube is soo good. The cheesecakes were cracked because I didn't use a water bath but it still turned out pretty good. Probably use less sour cream next time since the taste is strong. Full recipe could make around 20-25 cups.",
-        "bodyArticle": "",
+        "bodyArticle": 
+            "We are back again with the ube and cheesecake. I found out that the asian seafood market had ube jam and extract so I don't need to keep looking for it. This is another recipe from the <strong>unlikelybaker</strong>. Her site has so many ube recipes and I can't wait to try out more.<br/><br/>" +
+            "I made this the night before in order to have it refridgerated. I learn my lesson from the first cheesecakes I maded to let it chill because it taste so much better cold. I was sad because I only bought 18 mini cups when the recipe could have made a total of 20-25 cups. I had a bit of ube leftover.<br/><br/>" +
+            "The <strong>mini graham cracker crust</strong> are my favorite! I don't need to make my own crust and its so much easier to serve and give away. Plus, they look so much cuter. I didn't use a water bath because I am lazy but I don't really mind if there are cracks or not. Majority of them had cracks but it still tasted really good. <br/><br/>" +
+            "Everyone seemed to enjoy it so I was happy. Though, there were some things that I would change if I were to bake it again. I would use less sour cream because I thought the flavor was so strong. You can taste sour cream in every bite and it bothered me a bit. Also I wish the ube flavor was stronger. I even added extra ube extract but I still had trouble tasting it.<br/><br/>" +
+            "Overall, the recipe was a simple mix and bake. As for the taste I would modifiy some of the measurements myself to get a strong ube taste. I rate this recipe <strong>8/10</strong>."
+            ,
         "date": "1/17/2024",
-        "img": ubecheese,
+        "img": [ubecheese, ubecheeseTwo, ubecheeseThree],
+        "imgCaption": "Uncooked in the middle picture",
         "link": "https://theunlikelybaker.com/ube-cheesecake-video/"
     }
 ]

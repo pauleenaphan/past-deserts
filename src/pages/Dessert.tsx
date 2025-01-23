@@ -5,11 +5,16 @@ import { FaArrowLeft } from "react-icons/fa6";
 
 import { useNavigate } from 'react-router-dom';
 import "../styles/Dessert.css";
+import { useEffect } from "react";
 
 export const Dessert = () =>{
     const navigate = useNavigate();
     const { id } = useParams();
     const memory = recipesData.find((recipe) => recipe.id === Number(id));
+
+    useEffect(() =>{
+        window.scrollTo(0, 0); // Scrolls to the top of the page
+    })
 
     return (
         <div className="dessertOuterContainer">
@@ -27,7 +32,14 @@ export const Dessert = () =>{
                             </p>
                         </div>
                         <p className="dessertDesc" dangerouslySetInnerHTML={{ __html: memory.bodyArticle }}></p>
-                        <img src={memory.img} alt={memory.name} />
+                        <div className="dessertImgContainer">
+                            {memory.img.map((image, index) => (
+                                <div key={index}>
+                                    <img src={image} alt={`${memory.name} image ${index + 1}`} />
+                                </div>
+                            ))}
+                        </div>
+                        
                         <p className="imgCaption"> {memory.imgCaption} </p>
                     </>
                 ) : (

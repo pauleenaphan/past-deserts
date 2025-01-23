@@ -36,10 +36,17 @@
     margin-bottom: 50px;
 }
 
-.dessertPage img{
-    width: 30%;
-    margin: 10px auto;
-    display: block;
+.dessertImgContainer{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.dessertImgContainer img{
+    width: 350px;
 }
 
 .imgCaption{
@@ -72,8 +79,11 @@
     .dessertDesc{
         font-size: 20px;
     }
-
-    .dessertPage img{
-        width: 70%;
+    
+    .dessertImgContainer{
+        flex-wrap: wrap;
+    }
+    .dessertImgContainer img{
+        width: 100%;
     }
 }

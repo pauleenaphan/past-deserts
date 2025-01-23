@@ -24,7 +24,7 @@ export const Home = () =>{
             </div>
             <p className="memoryNotes">{memory.description}</p>
             <div className="line"></div>
-            <img className="memoryImgs" src={memory.img}></img>
+            <img className="memoryImgs" src={memory.img[0]}></img>
         </div>
     ));
 
