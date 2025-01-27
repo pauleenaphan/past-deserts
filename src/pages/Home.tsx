@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { recipesData } from "../data/recipes";
 import { RiFilePaper2Line } from "react-icons/ri";
 import { PiCactusFill } from "react-icons/pi";
+import { FaRegCalendarAlt } from "react-icons/fa";
 
 import "../styles/Home.css";
 
@@ -10,21 +11,27 @@ export const Home = () =>{
     const navigate = useNavigate();
 
     const displayMemories = recipesData.map((memory) => (
-        <div className="memoryContainer" onClick={() => navigate(`/dessert/${memory.id}`)} >
-            <div className="recipeTitleLink">
-                <div className="recipeTitleDate">
-                    <h2> {memory.name}</h2>
+        <div className="memoryContainer">
+            <img className="memoryImg" src={memory.img[0]}></img>
+            <div className="memoryInfo">
+                <h2> {memory.name}</h2>
+                <div className='iconDate'>
+                    <FaRegCalendarAlt />
                     <p className="memoryDate"> {memory.date}</p>
                 </div>
-                {memory.link && (
-                    <a href={memory.link} target="_blank" rel="noopener noreferrer">
-                        <RiFilePaper2Line id="linkIcon"/> {/* Icon is now wrapped by the link */}
-                    </a>
-                )}
+                <p className="memoryNotes">{memory.description}</p>
+                <div className="line"></div>
+                
+                <div className='recipeReadmore'>
+                    {memory.link && (
+                        <a href={memory.link} target="_blank" rel="noopener noreferrer" className='recipeContainer'>
+                            <RiFilePaper2Line id="linkIcon"/>
+                            <p> Recipe </p>
+                        </a>
+                    )}
+                    <button className="readMoreBtn" onClick={() => navigate(`/dessert/${memory.id}`)} > Read More </button>
+                </div>
             </div>
-            <p className="memoryNotes">{memory.description}</p>
-            <div className="line"></div>
-            <img className="memoryImgs" src={memory.img[0]}></img>
         </div>
     ));
 

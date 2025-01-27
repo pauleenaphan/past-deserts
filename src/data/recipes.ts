@@ -17,7 +17,7 @@ export const recipesData = [
     {
         "id": 1,
         "name": "Banana Pudding",
-        "description": "Best pudding I ever had, and only had",
+        "description": "I don't think I had a pudding this good before. I don't even thing I had pudding before.",
         "bodyArticle": 
             "This Banana Pudding consisted of whip, bananas, nilla crackers and sweet stuff. The recipe was super easy to make and it was a nonbaked recipe.<br/><br/>" +
             "All I had to do was prep the pudding the night before, whip the heavy cream, then create the layers. I got these mini containers from daiso and made mini banana pudding jars.<br/><br/>" +
@@ -34,7 +34,7 @@ export const recipesData = [
     {
         "id": 2,
         "name": "Strawberry Protein Brownies",
-        "description": "These brownies were not bad",
+        "description": "These brownies were not bad but not amazing. It just tasked like cake.",
         "bodyArticle": 
             "I accidentally overcooked them a bit so the top was ugly and brown. Surprsingly it wasn't that dry. It kind of just tasted like cake with a hint of strawberry. Well everyone seemed to like it, so the bake was a win.<br/><br/>" +
             "Instead of doing chocolate I wanted to do strawberry because I had strawberry protein powder. I also used white chocolate chips instead. The white chocolate chips definetly added way more flavor than I thought.<br/><br/>" +
@@ -50,7 +50,7 @@ export const recipesData = [
     {
         "id": 3,
         "name": "Pandan Jelly",
-        "description": "Jiggle Wiggle",
+        "description": "I don't like any kind of jelly, so I didn't like this one, but making it was fun.",
         "bodyArticle": 
             "My first dessert recipe that has to use a stove top: <strong>Coconut Pandan Jelly</strong>. Did you know this recipe uses <strong>agar agar</strong>? I bet you don't know what that is. It's basically a vegetarian subsitute for gelatin. Aye Gar Gar.<br/><br/>" +
             "Pandan Jelly consist of pandan and coconut. The process was easy but also a bit frustrating. So I had to boil the coconut jelly and pandan then you pour each layer while waiting for the previous layer to solidify." +
@@ -68,7 +68,7 @@ export const recipesData = [
     {
         "id": 4,
         "name": "Mini Blueberry Cheesecake",
-        "description": "Mini cups are so cute!",
+        "description": "I didn't know these minicups graham cracker crusts were a thing.",
         "bodyArticle": 
             "Cheesecake has always been one of my favorite desserts because it was so sweet and kind of cheesey in a way. So originally I was going to make mini pumpkin pies but Buns was telling me how its graham cracker crust." +
             "So cheesecake uses a graham cracker crust. So why not make cheesecake instead. So I did! <br/> <br/>" +
@@ -85,7 +85,7 @@ export const recipesData = [
     {
         "id": 5,
         "name": "Ube Fudge Brownies",
-        "description": "We loveeee ube",
+        "description": "We loveeee ube and white chocolate chips. Probably my favorite baked good so far.",
         "bodyArticle": 
             "Ube has to be my favorite type of flavor. My first taste of ube was a halo halo at <strong>Cafe 86</strong>. Ube is a purple yam that is originally from the Philipphines. The taste is similar to taro but it's a bit sweeter.<br/><br/>" +
             "I think the hardest part about this recipe was looking for the jam and extract. I managed to find the jam at ranch 99 and the extract suprisingly at Walmart. It could also be found at another vietnamese store but I can't remember the name. The Hmart near me did not have any of these items.<br/><br/>" +
@@ -103,7 +103,7 @@ export const recipesData = [
     {
         "id": 6,
         "name": "Tres Leches",
-        "description": "First dessert of the year!",
+        "description": "First dessert of the year! A nice wet flavored, easy to make cake.",
         "bodyArticle": 
             "Tres Leches: a wet sponge cake! The first time I heard about it was in a discord call with my friends. Someone was explaining it to me but I didn't realize it was a sponge cake until I made one myself.<br/><br/>" +
             "This recipe was super easy to make and it tasted so good! It didn't even matter if I overcooked the cake because the milk made it soggy and nice. So it definetly wasn't dry. The whipped cream on top complements the sponge flavor so well. Everything about it was just so good.<br/><br/>" +
@@ -118,7 +118,7 @@ export const recipesData = [
     {
         "id": 7,
         "name": "Mini Ube Cheesecake",
-        "description": "Ube is soo good. The cheesecakes were cracked because I didn't use a water bath but it still turned out pretty good. Probably use less sour cream next time since the taste is strong. Full recipe could make around 20-25 cups.",
+        "description": "The mini cups are back and this baked good turned out yummy.",
         "bodyArticle": 
             "We are back again with the ube and cheesecake. I found out that the asian seafood market had ube jam and extract so I don't need to keep looking for it. This is another recipe from the <strong>unlikelybaker</strong>. Her site has so many ube recipes and I can't wait to try out more.<br/><br/>" +
             "I made this the night before in order to have it refridgerated. I learn my lesson from the first cheesecakes I maded to let it chill because it taste so much better cold. I was sad because I only bought 18 mini cups when the recipe could have made a total of 20-25 cups. I had a bit of ube leftover.<br/><br/>" +
