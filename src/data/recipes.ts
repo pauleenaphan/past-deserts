@@ -17,7 +17,7 @@ export const recipesData = [
     {
         "id": 1,
         "name": "Banana Pudding",
-        "description": "I don't think I had a pudding this good before. I don't even thing I had pudding before.",
+        "description": "A simple pudding with a lot of flavour. Especially if you like banana.",
         "bodyArticle": 
             "This Banana Pudding consisted of whip, bananas, nilla crackers and sweet stuff. The recipe was super easy to make and it was a nonbaked recipe.<br/><br/>" +
             "All I had to do was prep the pudding the night before, whip the heavy cream, then create the layers. I got these mini containers from daiso and made mini banana pudding jars.<br/><br/>" +
