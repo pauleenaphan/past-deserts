@@ -14,7 +14,10 @@ export const Dessert = () =>{
 
     useEffect(() =>{
         window.scrollTo(0, 0); // Scrolls to the top of the page
-    })
+        if (memory) {
+            document.title = `Past Desserts | ${memory.name}`;
+        }
+    }, [memory])
 
     return (
         <div className="dessertOuterContainer">

@@ -43,10 +43,12 @@
     width: 100%;
     justify-content: center;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .dessertImgContainer img{
     width: 350px;
+    /* width: 100%; */
 }
 
 .imgCaption{

@@ -48,7 +48,7 @@ export const Home = () =>{
                     </div>
                     
                     <p> 
-                        I started baking more towards the end of 2024 and I wanted to 
+                        I started baking towards the end of 2024 and I wanted to 
                         keep a memory of each time I baked or made a desert*
                         (I put desert because I would mispell dessert a lot).
                         Check out what I made so far! 
