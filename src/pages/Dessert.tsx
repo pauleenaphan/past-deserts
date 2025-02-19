@@ -21,8 +21,11 @@ export const Dessert = () =>{
 
     return (
         <div className="dessertOuterContainer">
-            <main className="dessertPage">
+            <div className="arrowContainer">
                 <FaArrowLeft id="backArrow" onClick={() =>{navigate(-1)}}/>
+            </div>
+            
+            <main className="dessertPage">
                 {memory ? (
                     <>
                         <h1 className="dessertName">{memory.name}</h1>

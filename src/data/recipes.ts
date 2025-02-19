@@ -18,6 +18,12 @@ import cheeseDanish2 from "../assets/recipeImgs/cheeseDanish/cheeseDanish2.jpg";
 import cheeseDanish3 from "../assets/recipeImgs/cheeseDanish/cheeseDanish3.jpg";
 import cheeseDanish4 from "../assets/recipeImgs/cheeseDanish/cheeseDanish4.jpg";
 
+import strawTresLeches from "../assets/recipeImgs/strawTresLeches/strawTresLeches1.jpg";
+import strawTresLeches2 from "../assets/recipeImgs/strawTresLeches/strawTresLeches2.jpg";
+import strawTresLeches3 from "../assets/recipeImgs/strawTresLeches/strawTresLeches3.jpg";
+import strawTresLeches4 from "../assets/recipeImgs/strawTresLeches/strawTresLeches4.jpg";
+import strawTresLeches5 from "../assets/recipeImgs/strawTresLeches/strawTresLeches5.jpg";
+
 export const recipesData = [
     {
         "id": 1,
@@ -150,5 +156,23 @@ export const recipesData = [
         "img": [cheeseDanish4, cheeseDanish, cheeseDanish2, cheeseDanish3],
         "imgCaption": "Took multiple photos this time for each step!",
         "link": "https://sugarspunrun.com/cheese-danish/"
+    },
+    {
+        "id": 9,
+        "name": "Strawberry Tres Leches",
+        "description": "Tres leches is always a big hit! Taste as good as the first one I made. Happy Valentines! <3",
+        "bodyArticle": 
+            "Tres leches is definetly one of the easiest desserts I ever made and it turns out so good! It doesn't matter if you over cook the batter or add too much milk because it's just so hard to mess up. <br/><br/>" +
+            "I didn't follow a recipe this time because the proces consist of baking cake batter then making your milk. This bake was for <strong>valentine's day</strong> so I decided to make a strawberry flavor! For my cake batter I choose a premade strawberry mix and it smelled and tasted so good. As for the milks mix I used any brand I could find of evaporated milk, regular milk, and " +
+            "sweetend condensed milk. I also added a few drops of red colored dye to get a pink color for the milk as you can see in the picture below. <br/><br/>" +
+            "Now the biggest part I messed up on was the <strong>whipped cream</strong>. So my boyfriend just moved out and we didn't have a stand mixer yet or any mixer. The common way was to just mix heavy whipping cream until it gets that fluffy consistency. But I wasn't able to so I bought regular " + 
+            "whipped cream instead. In my last photo you can see how they turned out and it looked really good until it melted. I didn't know how fast whipped cream would melt even if it was stored in the fridge. So one thing I learned is that always used heavy whipping cream for a prettier consistency.<br/><br/>" +
+            "After that I just topped the cupcakes with fruit because my friend Erick mentioned on the last tres leches I made that it would taste good with fruit. So I cut up some strawberries and added blueberries since it came with the mix.<br/><br/>" +
+            "I definetly give this desert a <strong>10/10</strong>. Everyone really enjoyed this bake! Tres leches is definetly one of my staple deserts now. I can't wait to make more in the future. Some other flavors I really want to try make is oreo, matcha, and red velvet.",
+        "date": "Feb 14, 2025",
+        "img": [strawTresLeches, strawTresLeches2, strawTresLeches3, strawTresLeches4, strawTresLeches5],
+        "imgCaption": "The last photo looks so good until the whipped cream melted. It looks so ugly but tasted so good.",
+        "link": "NA"
+
     }
 ]

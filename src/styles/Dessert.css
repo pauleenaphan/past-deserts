@@ -1,7 +1,7 @@
 .dessertOuterContainer{
     background-color: bisque;
     height: 100%;
-    padding: 50px 50px 200px;
+    /* padding: 50px 50px 200px; */
 }
 
 .dessertPage{
@@ -9,11 +9,16 @@
     margin: 0px auto;
 }
 
+.arrowContainer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
 #backArrow{
     font-size: 30px;
-    margin-bottom: 50px;
-    margin-left: -50px;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 
 #backArrow:hover{
@@ -54,6 +59,7 @@
 .imgCaption{
     text-align: center;
     color: rgb(29, 29, 29);
+    padding-bottom: 50px;
 }
 
 @media(max-width: 500px){

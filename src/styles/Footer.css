@@ -1,3 +1,8 @@
+.outerFooter{
+    background-color: bisque;
+    padding-bottom: 20px;
+}
+
 footer{
     background-color: bisque;
     padding: 20px;
@@ -7,7 +12,10 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    border-top: 5px solid;
+    border: 5px solid;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #githubIcon{
@@ -23,6 +31,7 @@ footer{
     footer{
         font-size: 18px;
     }
+    
     #githubIcon{
         font-size: 25px;
     }
