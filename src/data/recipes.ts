@@ -24,6 +24,10 @@ import strawTresLeches3 from "../assets/recipeImgs/strawTresLeches/strawTresLech
 import strawTresLeches4 from "../assets/recipeImgs/strawTresLeches/strawTresLeches4.jpg";
 import strawTresLeches5 from "../assets/recipeImgs/strawTresLeches/strawTresLeches5.jpg";
 
+import matchaCookies from "../assets/recipeImgs/matchaCookies/matchaCookies1.jpg";
+import matchaCookies2 from "../assets/recipeImgs/matchaCookies/matchaCookies2.jpg";
+import matchaCookies3 from "../assets/recipeImgs/matchaCookies/matchaCookies3.jpg";
+
 export const recipesData = [
     {
         "id": 1,
@@ -50,7 +54,7 @@ export const recipesData = [
             "I accidentally overcooked them a bit so the top was ugly and brown. Surprsingly it wasn't that dry. It kind of just tasted like cake with a hint of strawberry. Well everyone seemed to like it, so the bake was a win.<br/><br/>" +
             "Instead of doing chocolate I wanted to do strawberry because I had strawberry protein powder. I also used white chocolate chips instead. The white chocolate chips definetly added way more flavor than I thought.<br/><br/>" +
             "I was kind of sad when I overcooked the cake because the batter was a super nice pink color. It was stil pink inside a little but it wasn't the color I wanted. I'll definetly make sure to not overbake it next time. Though, it did smell a lot like strawberry it was good!<br/><br/>" +
-            "I remember this day Buns was making Bho Ko (a vietnamese beef stew dish). Everyone came over to eat so I decided to try these brownies out. We also watched smile 1. The movie was actually pretty interesting.<br/><br/>" +
+            "I remember this day my bf was making Bho Ko (a vietnamese beef stew dish). Everyone came over to eat so I decided to try these brownies out. We also watched smile 1. The movie was actually pretty interesting.<br/><br/>" +
             "I would give this recipe a <strong>10/10</strong>. You just mix everything in a bowl then bake it. It's hard to mess up. Plus I like how you can modify the recipe by adding different protein powders and the type of chocolate. "
             ,
         "date": "Nov 9, 2024",
@@ -68,7 +72,7 @@ export const recipesData = [
             "The annoying part was that sometimes the layer would take a while to solidify, so the jelly in the pot would solidify while I was waiting. Which is okay since you can boil it to make it jelly again. I had to boil it 3 extra times. " +
             "It wasn't my favorite running in and out of Bun's backyard reboiling the jelly.<br/> <br/>" +
             "I did overboil the rest of the pandan so some of it went to waste. It was okay though since the container didn't have anymore space for the layers. So it wasn't a lost cause. <br/> <br/>" + 
-            "The jelly came out looking really good. The layers were sticking and the shape really solidify. I don't like jelly so I made it for Buns since he was craving it. Btw he made Bun Bo Hue that day it was yummy. <br/> <br/>" +
+            "The jelly came out looking really good. The layers were sticking and the shape really solidify. I don't like jelly so I made it for my cutie since he was craving it. Btw he made Bun Bo Hue that day it was yummy. <br/> <br/>" +
             "Even though I don't like jelly I would give this recipe a <strong>8/10</strong>. It was easy to make but annoying since I had to reboil the layers when they solidify, but it was fun pouring the layers and seeing it jiggle."
             ,
         "date": "Nov 16, 2024",
@@ -173,6 +177,20 @@ export const recipesData = [
         "img": [strawTresLeches, strawTresLeches2, strawTresLeches3, strawTresLeches4, strawTresLeches5],
         "imgCaption": "The last photo looks so good until the whipped cream melted. It looks so ugly but tasted so good.",
         "link": "NA"
-
+    },
+    {
+        "id": 10,
+        "name": "Matcha White Chocolate Chip Cookies",
+        "description": "I can't stop overbaking my dessert :( ",
+        "bodyArticle": 
+            "I recently bought a huge tub of matcha for $25 because I haven't made a matcha dessert yet. I was thinking of making matcha tiramisu but, I haven't made cookies yet so I decided to make matcha cookies. <br/><br/>" +
+            "Like everything I tend to overbake my desserts because I am scared that they aren't fully cook yet. After the oven timer went off I barely saw a crust on my cookies and it looks like they were breaking easily when i tapped it. So I cooked it for about 8 more minutes and that was a big mistake! <br/><br/>" +
+            "They turned out pretty hard but if you pop it in the microwave they did get softer. The middle part was kind of fudgey making it nice and gooey. I also tried the trick of putting a tortilla in the tub with the cookies to make them softer. The reason behind it was becasue the tortilla would suck up all of the moisture, making the cookies softer. This apparently works good with bread too but I didn't have any. I'm pretty sure the tortilla trick work but it wasn't as soft because I kept the cookies in the fridge for some reason.<br/><br/>" +
+            "Anyways, this recipe is a <strong>10/10.</strong> Easy to make and still tasted pretty good. It was pretty fun to make since it was just a normal cookie recipe but with matcha powder. I need to stop overbaking."
+            ,
+        "date": "Feb 21, 2025",
+        "img": [matchaCookies, matchaCookies2, matchaCookies3],
+        "imgCaption": "The mix was so pretty and green until it wasn't.",
+        "link": "https://teakandthyme.com/matcha-white-chocolate-cookies/"
     }
 ]
