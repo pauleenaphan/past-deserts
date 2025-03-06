@@ -1,33 +1,3 @@
-import bananapud from "../assets/recipeImgs/bananapudding.jpg";
-import strawberrybrown from "../assets/recipeImgs/proteinstrawberrybrownies.jpg";
-import pandanjelly from "../assets/recipeImgs/pandanjelly.jpg";
-import blueberrycheese from "../assets/recipeImgs/blueberrycheesecake.jpg";
-
-import ubebrown from "../assets/recipeImgs/ubebronwnies.jpg";
-import ubebrownTwo from "../assets/recipeImgs/ubebrownies2.jpg";
-
-import tresleches from "../assets/recipeImgs/tresleches.jpg";
-import treslechesTwo from "../assets/recipeImgs/tresleches2.jpg";
-
-import ubecheese from "../assets/recipeImgs/ubecheesecake.jpg";
-import ubecheeseTwo from "../assets/recipeImgs/ubecheesecake2.jpg";
-import ubecheeseThree from "../assets/recipeImgs/ubecheesecake3.jpg";
-
-import cheeseDanish from "../assets/recipeImgs/cheeseDanish/cheeseDanish1.jpg";
-import cheeseDanish2 from "../assets/recipeImgs/cheeseDanish/cheeseDanish2.jpg";
-import cheeseDanish3 from "../assets/recipeImgs/cheeseDanish/cheeseDanish3.jpg";
-import cheeseDanish4 from "../assets/recipeImgs/cheeseDanish/cheeseDanish4.jpg";
-
-import strawTresLeches from "../assets/recipeImgs/strawTresLeches/strawTresLeches1.jpg";
-import strawTresLeches2 from "../assets/recipeImgs/strawTresLeches/strawTresLeches2.jpg";
-import strawTresLeches3 from "../assets/recipeImgs/strawTresLeches/strawTresLeches3.jpg";
-import strawTresLeches4 from "../assets/recipeImgs/strawTresLeches/strawTresLeches4.jpg";
-import strawTresLeches5 from "../assets/recipeImgs/strawTresLeches/strawTresLeches5.jpg";
-
-import matchaCookies from "../assets/recipeImgs/matchaCookies/matchaCookies1.jpg";
-import matchaCookies2 from "../assets/recipeImgs/matchaCookies/matchaCookies2.jpg";
-import matchaCookies3 from "../assets/recipeImgs/matchaCookies/matchaCookies3.jpg";
-
 export const recipesData = [
     {
         "id": 1,
@@ -42,7 +12,7 @@ export const recipesData = [
             "Overall, I rate this recipe <strong>10/10</strong>. It was super easy to make and turned out really good. Seems hard to mess it up."
             ,
         "date": "Oct 19, 2024",
-        "img": [bananapud],
+        "img": ["/recipeImgs/pudding/bananaPudding/bananaPudding0.jpg"],
         "imgCaption": "This image is from the website since I forgot to take on myself",
         "link": "https://www.the-girl-who-ate-everything.com/magnolia-bakerys-famous-banana-pudding/"
     },
@@ -58,7 +28,7 @@ export const recipesData = [
             "I would give this recipe a <strong>10/10</strong>. You just mix everything in a bowl then bake it. It's hard to mess up. Plus I like how you can modify the recipe by adding different protein powders and the type of chocolate. "
             ,
         "date": "Nov 9, 2024",
-        "img": [strawberrybrown],
+        "img": ["/recipeImgs/brownies/strawberryProteinBrownies/strawberryProteinBrownies0.jpg"],
         "imgCaption": "I didn't take a picture of it! So here is the one from the website",
         "link": "https://healthyfitnessmeals.com/healthy-protein-brownies-recipe/",
     },
@@ -76,7 +46,7 @@ export const recipesData = [
             "Even though I don't like jelly I would give this recipe a <strong>8/10</strong>. It was easy to make but annoying since I had to reboil the layers when they solidify, but it was fun pouring the layers and seeing it jiggle."
             ,
         "date": "Nov 16, 2024",
-        "img": [pandanjelly],
+        "img": ["/recipeImgs/jelly/pandanJelly/pandanJelly0.jpg"],
         "imgCaption": "Credit to Erick for taking this picture",
         "link": "https://takestwoeggs.com/coconut-pandan-jelly/"
     },
@@ -93,7 +63,7 @@ export const recipesData = [
             "I give this recipe a <strong>9/10</strong>. Only because I don't really like eating my blueberries in full form. Maybe it would have been good too if I squashed up the blueberries so the cheesecake would have been a dark blue color. Who knows?"
             ,
         "date": "Nov 26, 2024",
-        "img": [blueberrycheese],
+        "img": ["/recipeImgs/cheesecake/blueberryCheesecake/blueberrycheesecake0.jpg"],
         "imgCaption": "Credit to Erick for taking this photo of me! Look how cute I look <3",
         "link": "https://theloopywhisk.com/2021/01/22/easy-blueberry-cheesecake/"
     },
@@ -110,7 +80,7 @@ export const recipesData = [
             "The brownies tasted really good though. I definetly prefer it cold because it taste more like fudge and chunky. When it was reheated it would get super crumbly and the brownies don't stay in tact.<br/><br/>" +
             `Again, finding the ingredients is the hardest part. I would give this recipe a <strong>10/10</strong>. Mix and bake, then mix and bake! <a href="https://theunlikelybaker.com/">The unlikely baker</a> has so much ube recipes that I need to try out.`,
         "date": "Dec 6, 2024",
-        "img": [ubebrown, ubebrownTwo],
+        "img": ["/recipeImgs/brownies/ubeBrownies/ubebronwnies0.jpg", "/recipeImgs/brownies/ubeBrownies/ubebrownies1.jpg"],
         "imgCaption": "I wish I got a better photo! But the inside was a nice dark purple color.",
         "link": "https://theunlikelybaker.com/ube-brownies-recipe/"
     },
@@ -125,7 +95,7 @@ export const recipesData = [
             "I'm pretty sure everyone gave it a <strong>10/10</strong>, so I give this recipe a <strong>10/10</strong>. I have seen a bunch of different flavor tres leches recipes like red velvet or strawberry and it's basically made the same way. Can't wait to try them in the future!" 
             ,
         "date": "Jan 5, 2025",
-        "img": [tresleches, treslechesTwo],
+        "img": ["/recipeImgs/tresLeches/regularTresLeches/tresleches0.jpg", "/recipeImgs/tresLeches/regularTresLeches/tresleches1.jpg"],
         "imgCaption": "Look how good this looks!",
         "link": "https://www.allrecipes.com/recipe/7399/tres-leches-milk-cake/"
     },
@@ -141,7 +111,7 @@ export const recipesData = [
             "Overall, the recipe was a simple mix and bake. As for the taste I would modifiy some of the measurements myself to get a strong ube taste. I rate this recipe <strong>8/10</strong>."
             ,
         "date": "Jan 17, 2025",
-        "img": [ubecheese, ubecheeseTwo, ubecheeseThree],
+        "img": ["/recipeImgs/cheesecake/ubeCheesecake/ubecheesecake0.jpg", "/recipeImgs/cheesecake/ubeCheesecake/ubecheesecake1.jpg", "/recipeImgs/cheesecake/ubeCheesecake/ubecheesecake2.jpg"],
         "imgCaption": "Uncooked in the middle picture",
         "link": "https://theunlikelybaker.com/ube-cheesecake-video/"
     },
@@ -157,7 +127,7 @@ export const recipesData = [
             "During this day I also celebrated chinese new years! Went to watch the lion dance and celebrate traditions at my aunt's bakery then headed out. After that we went to bun's uncle house where we took shots and damn his grandpa can drink it's wild. We then watched joy ride which was a fun movie and I watch Moana 2 then made the cheese danishes after. It was a fun and cozy day. <br/><br/>" + 
             "Overall, I give this recipe a <strong>10/10</strong>. The hardest part was making the dough but that wasn't too bad either. The cream cheese filling was super easy and really tasty. ",
         "date": "Feb 1, 2025",
-        "img": [cheeseDanish4, cheeseDanish, cheeseDanish2, cheeseDanish3],
+        "img": ["/recipeImgs/puffPastry/cheeseDanish/cheeseDanish3.jpg", "/recipeImgs/puffPastry/cheeseDanish/cheeseDanish0.jpg", "/recipeImgs/puffPastry/cheeseDanish/cheeseDanish1.jpg", "/recipeImgs/puffPastry/cheeseDanish/cheeseDanish2.jpg"],
         "imgCaption": "Took multiple photos this time for each step!",
         "link": "https://sugarspunrun.com/cheese-danish/"
     },
@@ -174,7 +144,7 @@ export const recipesData = [
             "After that I just topped the cupcakes with fruit because my friend Erick mentioned on the last tres leches I made that it would taste good with fruit. So I cut up some strawberries and added blueberries since it came with the mix.<br/><br/>" +
             "I definetly give this desert a <strong>10/10</strong>. Everyone really enjoyed this bake! Tres leches is definetly one of my staple deserts now. I can't wait to make more in the future. Some other flavors I really want to try make is oreo, matcha, and red velvet.",
         "date": "Feb 14, 2025",
-        "img": [strawTresLeches, strawTresLeches2, strawTresLeches3, strawTresLeches4, strawTresLeches5],
+        "img": ["/recipeImgs/tresLeches/strawTresLeches/strawTresLeches0.jpg", "/recipeImgs/tresLeches/strawTresLeches/strawTresLeches1.jpg", "/recipeImgs/tresLeches/strawTresLeches/strawTresLeches2.jpg", "/recipeImgs/tresLeches/strawTresLeches/strawTresLeches3.jpg", "/recipeImgs/tresLeches/strawTresLeches/strawTresLeches4.jpg"],
         "imgCaption": "The last photo looks so good until the whipped cream melted. It looks so ugly but tasted so good.",
         "link": "NA"
     },
@@ -189,8 +159,28 @@ export const recipesData = [
             "Anyways, this recipe is a <strong>10/10.</strong> Easy to make and still tasted pretty good. It was pretty fun to make since it was just a normal cookie recipe but with matcha powder. I need to stop overbaking."
             ,
         "date": "Feb 21, 2025",
-        "img": [matchaCookies, matchaCookies2, matchaCookies3],
+        "img": ["/recipeImgs/matchaCookies/matchaCookies0.jpg", "/recipeImgs/matchaCookies/matchaCookies1.jpg", "/recipeImgs/matchaCookies/matchaCookies2.jpg"],
         "imgCaption": "The mix was so pretty and green until it wasn't.",
         "link": "https://teakandthyme.com/matcha-white-chocolate-cookies/"
+    },
+    {
+        "id": 11,
+        "name": "Strawberry Matcha Tres Leches",
+        "description": "Back to back matcha baking and it's a classic",
+        "bodyArticle": 
+            "Back at it again with the matcha and tres leches desert. Tres leches is honestly one of my favorite deserts at this point because it's so easy to make and it always turns out so good. There are so many variations that I stil want to try baking. <br/><br/>" +
+            "This was actually for my friend Erick. His birthday was that week and the first time I made tres leches he asked if I could make it for his birthday so here it is. Originally I was going to make an oreo one but I thought matcha strawberry sounded better. Plus I wanted to make another matcha desert. <br/><br/>" +
+            "So the matcha I used is just a random tub from amazon but it super big and it only cost $25. I don't think it was ceremonial matcha but it still gets the job done. The color was definetly darker and the taste wasn't as strong but it's still good. <br/><br/>" +
+            "One interesting thing I learned is that ceremonial matcha is actaully a lighter color. I noticed that some of the recipes used ceremonial matcha that's why the color of my matcha cake was much darker than the pictures in the recipe. But I just wanted something in my budget. A small tub of cerermonial matcha was like $40." + 
+            "It's worth if you tend to go out and buy a lot of matcha drinks since those run for $6-$10. Anways if you want a good matcha flavor then ceremonial is the way to go. <br/><br/>" +
+            "Like every other bake I also overbaked this one too! So originally I poked it with a fork and there was still some residue that came off. I baked it for 8 more minutes and it turned out perfect. But then I left it in the oven to cool down and it slowly baked more which made it a little overcooked. Doesn't matter though in a tres leches recipe." +
+            "Also when decorating the cake I did do the powered style to make it look pretty but there was a big clump so I tried scooping it out but it made the cake look ugly. So I just combined the powder and whipped and it didn't look as bad. You can see it in the third picture before I put on the strawberries. " +
+            "After cutting the strrawberries and putting it on the cake it actually looked sooo goddam ugly. I hated it. I showed my bf and he said I should have cut the strawbeerries into small chunks and he was so right! It would have looked way better. It's okay since it stilled taste good. <br/><br/>" +
+            "I rate this recipe a 10/10. Easy to follow and make. My friend Erick also seemed to really like it which is good! Considering the tres leches was for him .Also again for the milks it's just a combination of evaporated, condensed, and whole milk. I added red dye to mine so that the whipped was pink colored. You can slighly see it in the picture after I added the matcha powder on top."
+            ,
+        "date": "Feb 28, 2025",
+        "img": ["/recipeImgs/tresLeches/matchaStrawTresLeches/matchaStrawTresLeches0.jpg", "/recipeImgs/tresLeches/matchaStrawTresLeches/matchaStrawTresLeches1.jpg", "/recipeImgs/tresLeches/matchaStrawTresLeches/matchaStrawTresLeches2.jpg", "/recipeImgs/tresLeches/matchaStrawTresLeches/matchaStrawTresLeches3.jpg"],
+        "imgCaption": "The end results looks so ugly",
+        "link": "https://www.dessertfortwo.com/matcha-cake/"
     }
 ]
