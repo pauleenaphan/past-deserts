@@ -182,5 +182,22 @@ export const recipesData = [
         "img": ["/recipeImgs/tresLeches/matchaStrawTresLeches/matchaStrawTresLeches0.jpg", "/recipeImgs/tresLeches/matchaStrawTresLeches/matchaStrawTresLeches1.jpg", "/recipeImgs/tresLeches/matchaStrawTresLeches/matchaStrawTresLeches2.jpg", "/recipeImgs/tresLeches/matchaStrawTresLeches/matchaStrawTresLeches3.jpg"],
         "imgCaption": "The end results looks so ugly",
         "link": "https://www.dessertfortwo.com/matcha-cake/"
+    },
+    {
+        "id": 12,
+        "name": "Oreo Protein Brownies",
+        "description": "Yogurt + Creamcheese + Sugar = Frosting",
+        "bodyArticle": 
+            "Protein deserts can be a hit or miss but this one was pretty good for the macros. The whole thing was a total of <strong>600 calories and 60g of protein</strong>. It was super easy to make and had a good chocolate flavor to it. <br/><br/>" +
+            "One reason why mine didn't look as black or dark as the one in the recipe was because I didn't have dark cocoa powder. I only had regular coca powder so the color didn't really look like an oreo. It also tasted more like choclate rather than an oreo. <br/><br/>" +
+            "Another thing to note is that I didn't have much batter after combining everything that's why the brownie looks super thin. Also it was a bit dry because I over cooked it. I think the guy in the video used a smaller pan so his reccomended cooking time was higher. I had to take a few minutes out early because it finished early because it was already done baking. " +
+            "For anyone that does try out the recipe I reccomend cooking it for less time or using a smaller cooking pan so that it doesn't look as thin. <br/><br/>" +
+            "One thing I really liked was the frosting. So it did taste a bit sour and because of the greek yogurt taste but other than that it was super good. I didn't expect it at all. For the frosting I used <strong> greek yogurt, cream cheese, and monkfruit. </strong> Monkfruit is 0 cals which is really nice and it makes a good sweetener. The combination of these three made such a gooey and sweet frosting. It was superrr good. <br/><br/>" +
+            "Overall, I rate this recipe a <strong> 8/10. </strong> The taste was there and the frosting but I just diddn't like the cooking times he reccomended. I know it's a brownie so it should be thinner but the one in his video looked super moist and think. I just wish he gave a heads up on the cooking pan or reduced the cooking time so that it doesn't overbake. "
+            ,
+        "date": "March 10, 2025",
+        "imgCaption": "Looks so pretty!",
+        "img": ["/recipeImgs/brownies/oreoProteinBrownies/oreoProteinBrownies0.jpg", "/recipeImgs/brownies/oreoProteinBrownies/oreoProteinBrownies1.jpg", "/recipeImgs/brownies/oreoProteinBrownies/oreoProteinBrownies2.jpg", "/recipeImgs/brownies/oreoProteinBrownies/oreoProteinBrownies3.jpg"],
+        "link": "https://www.instagram.com/reel/DG1SF5ZRlIJ/?igsh=NTc4MTIwNjQ2YQ%3D%3D"
     }
 ]
