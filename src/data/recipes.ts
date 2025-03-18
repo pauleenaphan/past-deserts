@@ -195,9 +195,23 @@ export const recipesData = [
             "One thing I really liked was the frosting. So it did taste a bit sour and because of the greek yogurt taste but other than that it was super good. I didn't expect it at all. For the frosting I used <strong> greek yogurt, cream cheese, and monkfruit. </strong> Monkfruit is 0 cals which is really nice and it makes a good sweetener. The combination of these three made such a gooey and sweet frosting. It was superrr good. <br/><br/>" +
             "Overall, I rate this recipe a <strong> 8/10. </strong> The taste was there and the frosting but I just diddn't like the cooking times he reccomended. I know it's a brownie so it should be thinner but the one in his video looked super moist and think. I just wish he gave a heads up on the cooking pan or reduced the cooking time so that it doesn't overbake. "
             ,
-        "date": "March 10, 2025",
+        "date": "March 8, 2025",
         "imgCaption": "Looks so pretty!",
         "img": ["/recipeImgs/brownies/oreoProteinBrownies/oreoProteinBrownies0.jpg", "/recipeImgs/brownies/oreoProteinBrownies/oreoProteinBrownies1.jpg", "/recipeImgs/brownies/oreoProteinBrownies/oreoProteinBrownies2.jpg", "/recipeImgs/brownies/oreoProteinBrownies/oreoProteinBrownies3.jpg"],
         "link": "https://www.instagram.com/reel/DG1SF5ZRlIJ/?igsh=NTc4MTIwNjQ2YQ%3D%3D"
+    },
+    {
+        "id": 13,
+        "name": "Red Velvet Swiss",
+        "description": "This ain't a swiss roll",
+        "bodyArticle":
+            "So this was a total flop. It was basically the same recipe as the last one I did but with red food coloring. I didn't know that red velvet was basically chocolate but red food coloring. The desert itself wasn't bad for the macros but I thought it was okay this time. <br/><br/>" +
+            "I didn't realize until I had to roll it up but apparently I needed to use a long baking pan which makes so much for sense. I used a square pan so it the cake was a bit thick making it hard to roll up. So I gave up and didn't roll it. I just made another brownie. <br/><br/>" +
+            "Overall I messed up but the bake wasn't too bad. I'll rate it a 7/10. It's good for a protein recipe."
+            ,
+        "date": "March 15, 2025",
+        "imgCaption": "Ugly brown ugly color but still taste good",
+        "img": ["/recipeImgs/brownies/redVelvetBrownies/redVelvetBrownies0.jpg", "/recipeImgs/brownies/redVelvetBrownies/redVelvetBrownies1.jpg", "/recipeImgs/brownies/redVelvetBrownies/redVelvetBrownies2.jpg"],
+        "link": "https://www.instagram.com/reel/DDlD74rM1LI/?igsh=NTc4MTIwNjQ2YQ=="
     }
 ]
