@@ -213,5 +213,19 @@ export const recipesData = [
         "imgCaption": "Ugly brown ugly color but still taste good",
         "img": ["/recipeImgs/brownies/redVelvetBrownies/redVelvetBrownies0.jpg", "/recipeImgs/brownies/redVelvetBrownies/redVelvetBrownies1.jpg", "/recipeImgs/brownies/redVelvetBrownies/redVelvetBrownies2.jpg"],
         "link": "https://www.instagram.com/reel/DDlD74rM1LI/?igsh=NTc4MTIwNjQ2YQ=="
+    },
+    {
+        "id": 14,
+        "name": "Ube Cookies",
+        "description": "Turned out so soft and chewy! No overbake this time",
+        "bodyArticle":
+            "I am super happy with how the cookies turned out because this time I didn't over bake them! After baking for a while I finally learned that it's okay to have them a little undercook because they will continue to slowly cook after you take them out. Another successful recipe from the unlikelybaker. <br/><br/>" +
+            "For all of her recipes the main stuff for ube is just the jam and extract so anything could be ube at this point. I'm not sure what other ube desert I want to make. I was thinking ice cream but will see in the future. <br/><br/>" +
+            "So I was on a roll for making protein deserts but I wanted to bake for my coworkers. So there was a joke that I was going to bake for one coworker but then my other coworker said if you bake something for him then can you also bring me something. So at that point I just decided to bake something for everyone. <br/><br/>" +
+            "All of my coworkers who had one really liked it so i'm happy. The recipe made a total of about 25 cookies if I remember correctly. Overall, I give this recipe a 10/10! The cookies were so soft and chewy it was really good. This is probably one of the best bakes I have done this year."
+            ,
+        "imgCaption": "A darker purple than I wanted but it still looks good",
+        "img": ["/recipeImgs/cookie/ubeCookies/ubeCookie0.jpg", "/recipeImgs/cookie/ubeCookies/ubeCookie1.jpg", "/recipeImgs/cookie/ubeCookies/ubeCookie2.jpg", "/recipeImgs/cookie/ubeCookies/ubeCookie3.jpg"],
+        "link": "https://theunlikelybaker.com/ube-cookies-recipe/"
     }
 ]
