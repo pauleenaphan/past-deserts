@@ -224,8 +224,39 @@ export const recipesData = [
             "So I was on a roll for making protein deserts but I wanted to bake for my coworkers. So there was a joke that I was going to bake for one coworker but then my other coworker said if you bake something for him then can you also bring me something. So at that point I just decided to bake something for everyone. <br/><br/>" +
             "All of my coworkers who had one really liked it so i'm happy. The recipe made a total of about 25 cookies if I remember correctly. Overall, I give this recipe a 10/10! The cookies were so soft and chewy it was really good. This is probably one of the best bakes I have done this year."
             ,
+        "date": "March 29, 2025",
         "imgCaption": "A darker purple than I wanted but it still looks good",
         "img": ["/recipeImgs/cookie/ubeCookies/ubeCookie0.jpg", "/recipeImgs/cookie/ubeCookies/ubeCookie1.jpg", "/recipeImgs/cookie/ubeCookies/ubeCookie2.jpg", "/recipeImgs/cookie/ubeCookies/ubeCookie3.jpg"],
         "link": "https://theunlikelybaker.com/ube-cookies-recipe/"
+    },
+    {
+        "id": 15,
+        "name": "Protein Blueberry Muffins",
+        "description": "Bluberry color is so pretty",
+        "bodyArticle": 
+            "These muffins were probably the first muffins I have ever made. I have been wanting to make blueberry muffins for a while now ever since I saw a recipe for it on instagram. I finally decided to make it because I wanted something blueberry and a protein bake for this week. <br/><br/>" +
+            "They turned out pretty good. The only thing I wished for is the shape. I wish they puffed up more like muffins. They kind of just looked like blueberry bites. It looks okay but still taste pretty good. One thing I thought was cool was the color of the blueberry since it gets mashed a little. The inside was a super pretty purple color. <br/><br/>" +
+            "The batter made around I think 24ish muffins. One thing to note is that you should have enough of the tin cupcake holders. I feel like those help so much when it comes to taking out the muffins. I could also be wrong because I didn't spray any oil when I didn't use the paper so the bottom looks all funny. <br/><br/>" +
+            "Overall, I rate this recipe a 10/10. It was super easy to make and turned out pretty good. I don't think the macros were anything crazy but it's definetly better than using standard ingredients. "
+            ,
+        "date": "April 5, 2025",
+        "imgCaption": "The color turned out into a nice golden brown. The berry color was so pretty!",
+        "img": ["/recipeImgs/muffins/blueberryProteinMuffins/blueberryProteinMuffins0.jpg", "/recipeImgs/muffins/blueberryProteinMuffins/blueberryProteinMuffins1.jpg", "/recipeImgs/muffins/blueberryProteinMuffins/blueberryProteinMuffins2.jpg"],
+        "link": "https://www.simplysissom.com/to-die-for-blueberry-protein-muffins/"
+    },
+    {
+        "id": 16,
+        "name": "Matcha Mochi Brownies",
+        "description": "Brochie time",
+        "bodyArticle": 
+            "I messed up so much this time but they still turned out kind of good. I don't think the mochi taste is my favorite but it was still fun to bake and try out. <br/><br/>" +
+            "So the first thing I messed up on was combining the dry and wet ingredients. Usually you want to stir the wet and the dry separaetly THEN combine them. I was talking to Shawn while I was baking so I totally forgot. The next mistake was not sfiting the matcha. A lot of clumbs can be seen in the batter and it looked nasty. You could also somewhat taste it. <br/><br/>" +
+            "Also my mixture was super watery. I am not sure if that is how it is suppose to be or if it's because I mix they dry and wet early but I added extra flour. I think that ruined it because the brochie does taste a little powdery but it could also be the matcha too. Also brochie = brownie + mochi. I thought it sounded weird but that's what the recipe called it. <br/><br/>" +
+            "Overall, the brochie still turned out yummy. They weren't horrible but they also weren't amazing. I give this recipe a 10/10. I do think it would have been way better if I had better matcha and I didn't mess up. The inside turned out so pretty though I really like it. "
+            ,
+        "date": "April 12, 2025",
+        "imgCaption": "A nice dark ugly green swamp color",
+        "img": ["/recipeImgs/brownies/matchaMochiBrownies/matchaMochiBrownies0.jpg", "/recipeImgs/brownies/matchaMochiBrownies/matchaMochiBrownies1.jpg", "/recipeImgs/brownies/matchaMochiBrownies/matchaMochiBrownies2.jpg", "/recipeImgs/brownies/matchaMochiBrownies/matchaMochiBrownies3.jpg", "/recipeImgs/brownies/matchaMochiBrownies/matchaMochiBrownies4.jpg"],
+        "link": "https://www.siftandsimmer.com/matcha-brownie-mochi-brochi/"
     }
 ]
