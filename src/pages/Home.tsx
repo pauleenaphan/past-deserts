@@ -41,7 +41,7 @@ export const Home = () =>{
     return(
         <div className="homePageOuter">
             <main className="homePage">
-                <header>
+                <header className='cardBg'>
                     <div className="titleIcon">
                         <h1> Past Deserts </h1>
                         <PiCactusFill className="cactusIcon"/>
@@ -55,7 +55,9 @@ export const Home = () =>{
                     </p>
                 </header>
                 
-
+                <section>
+                    <p className="dessertCounter">Total Desserts: {displayMemories.length}</p>
+                </section>
                 {/* Display the fetched memories */}
                 <div className="allMemoriesContainer">
                     {displayMemories.length > 0 ? (

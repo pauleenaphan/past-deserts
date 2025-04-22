@@ -258,5 +258,21 @@ export const recipesData = [
         "imgCaption": "A nice dark ugly green swamp color",
         "img": ["/recipeImgs/brownies/matchaMochiBrownies/matchaMochiBrownies0.jpg", "/recipeImgs/brownies/matchaMochiBrownies/matchaMochiBrownies1.jpg", "/recipeImgs/brownies/matchaMochiBrownies/matchaMochiBrownies2.jpg", "/recipeImgs/brownies/matchaMochiBrownies/matchaMochiBrownies3.jpg", "/recipeImgs/brownies/matchaMochiBrownies/matchaMochiBrownies4.jpg"],
         "link": "https://www.siftandsimmer.com/matcha-brownie-mochi-brochi/"
+    },
+    {
+        "id": 17,
+        "name": "Cinnamon Rolls",
+        "description": "synonym rolls, another dough recipe",
+        "bodyArticle":
+            "Another dough recipe that turned out really good! It actually tasted like a real cinnamon roll. Cinnabon is still better but it was still yummy and the flavor was definelty there. Mine isn't as sweet at Cinnabon which I think I prefer. <br/><br/>" +
+            "At first my dough didn't look that smooth so I was a bit worried but I just needed to massage it more. After letting it sit for a bit once you start kneading it, the dough will smooth out. <br/><br/>" +
+            "The recipe made a total of 16+ cinnamon rolls but I also had a bit of extra that I tossed because it was the end parts. I think I also cut the rolls too thin so they needed to be a litte bit bigger, but they puffed up to a really good size. They actually puffed up more than I expected. They kind of looked like a nipple after I baked it but it still held the swirl design. <br/><br/>" +
+            "In the first picture I did two separate frostings. The one on the right is a standard frosting with the cream cheese, milk, and sugar. The recipe called for butter but I didn't add any since I used a lot of butter in the recipe already. The other frosting was a protein frosting that I made last time for the oreo brownies and swiss rolls. It consisted of yogurt, sugar, and cream cheese. Super good but it does taste slighty sour due to the yogurt. <br/><br/>" +
+            "Overall, this recipe was fun to make. It was definetly different from the other stuff I made because you mix, wait, then bake. It was just something different from the usual deserts I bake."
+            ,
+        "date": "April 20, 2025",
+        "imgCaption": "Final result looks ugly, but the process was fun.",
+        "img": ["/recipeImgs/cinnamonRolls/cinnamonRoll0.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll1.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll2.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll3.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll4.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll5.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll6.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll7.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll8.jpg"],
+        "link": "https://butternutbakeryblog.com/easy-homemade-cinnamon-rolls/"
     }
 ]
