@@ -166,7 +166,7 @@ export const recipesData = [
     {
         "id": 11,
         "name": "Strawberry Matcha Tres Leches",
-        "description": "Back to back matcha baking and it's a classic",
+        "description": "Back to back matcha baking",
         "bodyArticle": 
             "Back at it again with the matcha and tres leches desert. Tres leches is honestly one of my favorite deserts at this point because it's so easy to make and it always turns out so good. There are so many variations that I stil want to try baking. <br/><br/>" +
             "This was actually for my friend Erick. His birthday was that week and the first time I made tres leches he asked if I could make it for his birthday so here it is. Originally I was going to make an oreo one but I thought matcha strawberry sounded better. Plus I wanted to make another matcha desert. <br/><br/>" +
@@ -274,5 +274,23 @@ export const recipesData = [
         "imgCaption": "Final result looks ugly, but the process was fun.",
         "img": ["/recipeImgs/cinnamonRolls/cinnamonRoll0.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll1.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll2.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll3.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll4.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll5.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll6.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll7.jpg", "/recipeImgs/cinnamonRolls/cinnamonRoll8.jpg"],
         "link": "https://butternutbakeryblog.com/easy-homemade-cinnamon-rolls/"
+    },
+    {
+        "id": 18,
+        "name": "Blueberry Yogurt Clusters",
+        "description": "not what I wanted",
+        "bodyArticle": 
+            "For something that failed so bad, it turned out pretty good. So first, the original plan was to make strawberry clusters! Not blueberry ones. I had a scheduled strawberry upick at Manaserro Farms at 11 but it started raining DURING AND ONLY at that time. We got a refund for it, but it just felt so unlucky. I think this dessert would have tasted much better with strawberries. Also because I am not a fan of raw blueberries. <br/><br/>" +
+            "As for the chocolate, I used some old chocolate I had from the Europe cruise that I bought in Belgium. I forgot to take a picture of the bar but that thing was super good, but it was 2400 calories. Haha and this was suppose to be a low cal desert. Anyways I was going to microwave the chocolate but my bf wanted me to boiler it instead so I did that. I didn't know there was a name for it and I think I remember doing it before but at the same time it felt like my first. <br/><br/>" +
+            "The chocolate was super thick and it wasn't as runny as I thought it was going to be. There also wasn't enough chocolate to fully coat all of the clusters. I think it also messed up a bit because when I did try to coat the yogurt the chocolate wasn't sticking at all. I had to smear it on the yogurt. I think the water or ice from the yogurt was rubbing off and acting like a protective layer from the chocolate. <br/><br/>" +
+            "My bf also made it a good point that I was suppose to coat the whole thing so that you can put the desert inside of the fridge. So the chocolate stays cold and is able to hold the yogurt inside. I just left it in the freezer because it wasn't able to coat. It still taste good though because its like a strawberry slush popsicle I can lick or slowly shave off. <br/><br/>" +
+            "I'm pretty sure it won't be raining again this week so I can pick those strawberries! My bf wanted me to try to make them again next week so we will try out the recipe again with strawberries this time and getting better chocolate for melting. <br/><br/>" +
+            "Another thing I thought was funny was the recipe video. The op is a super old hype beast youtuber I used to watch ALOT: Wolfieraps. I didn't notice until I read the comments but it was Wolfie. I was just surprising and unexpected. <br/><br/>" +
+            "Overall, I rate this recipe a 10/10. Even though mine turned out bad it stil tasted really good with the chocolate. It was easy to make and it's good on the macros. It's a nice light snack to eat before bed or even the morning. It satisfies my sweet tooth that I don't have."
+            ,
+        "date": "April 26, 2025", 
+        "imgCaption": "Chocolate didn't fully coat so it looks ugly",
+        "img": ["/recipeImgs/yogurt/blueberryClusters/blueberryClusters0.jpg", "/recipeImgs/yogurt/blueberryClusters/blueberryClusters1.jpg", "/recipeImgs/yogurt/blueberryClusters/blueberryClusters2.jpg", "/recipeImgs/yogurt/blueberryClusters/blueberryClusters3.jpg", "/recipeImgs/yogurt/blueberryClusters/blueberryClusters4.jpg"],
+        "link": "https://www.instagram.com/wolfie/reel/DH_4-jpxa3-/"
     }
 ]
