@@ -292,5 +292,20 @@ export const recipesData = [
         "imgCaption": "Chocolate didn't fully coat so it looks ugly",
         "img": ["/recipeImgs/yogurt/blueberryClusters/blueberryClusters0.jpg", "/recipeImgs/yogurt/blueberryClusters/blueberryClusters1.jpg", "/recipeImgs/yogurt/blueberryClusters/blueberryClusters2.jpg", "/recipeImgs/yogurt/blueberryClusters/blueberryClusters3.jpg", "/recipeImgs/yogurt/blueberryClusters/blueberryClusters4.jpg"],
         "link": "https://www.instagram.com/wolfie/reel/DH_4-jpxa3-/"
+    },
+    {
+        "id": 19,
+        "name": "Carrot Cake",
+        "description": "I don't like carrot but, this was good",
+        "bodyArticle": 
+            "Carrot is probably one of the vegetables I hate the most. I don't like the smell or how crunchy they are. Shredding carrots was kind of nasty cause the smell just lingers on your hands. I wanted to make something yummy for my boyfriend so I decided to make carrot cake! <br/><br/>" +
+            " One thing that was a fail was that the middle part was under baked. That's why in one of the photos below, it looked like someone punched my cake. At first when I took out the cake it was super puffed up and then it slowly deflated. It could be because the batter was too much for the pan or the heat just wasn't spread out easily. So the middle is still gooey but everything else taste good. <br/><br/>" +
+            "As I make more and more frosting I realize that most frostings just consist of cream cheese + any sweetener. For this frosting I used cream cheese, sugar, and heavy milk cream. I ust thought that was interesting. I also didnt' know that carrot cake uses pecans or any nuts. I put chopped on pecans to add a nice soft crunch and to make it look pretty. It pairs well with the texture of the carrot cake. <br/><br/>" +
+            "Overall, I rate this recipe a 10/10. The recipe was easy to follow and my cake turned out pretty good. I would follow this recipe again if I were to bake again. The only thing I would change is to make the cake two different layers instead of one. So it looks prettier and so that it looks like a real cake."
+            ,
+        "date": "May 17, 2025",
+        "imgCaption": "Pecans made the cake look pretty",
+        "img": ["/recipeImgs/cake/carrotCake/carrotCake0.jpg", "/recipeImgs/cake/carrotCake/carrotCake1.jpg", "/recipeImgs/cake/carrotCake/carrotCake2.jpg", "/recipeImgs/cake/carrotCake/carrotCake3.jpg", "/recipeImgs/cake/carrotCake/carrotCake4.jpg", "/recipeImgs/cake/carrotCake/carrotCake5.jpg", "/recipeImgs/cake/carrotCake/carrotCake6.jpg"],
+        "link": "https://www.inspiredtaste.net/25753/carrot-cake-recipe/",
     }
 ]
